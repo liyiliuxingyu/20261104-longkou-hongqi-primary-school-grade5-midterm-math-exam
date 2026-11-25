@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-11-19",
+  "scope": "Chinese-language TeX support for the A3 mathematics project; not a standalone TeX engine or full TeX distribution.",
+  "packages": [
+    {
+      "name": "ctex",
+      "version": "2.5.10",
+      "release_date": "2022-07-14",
+      "license": "LPPL-1.3c-or-later",
+      "upstream_repository": "https://github.com/CTeX-org/ctex-kit",
+      "upstream_snapshot_commit": "c4ccfaefe803ab4a12c9fedc929be1e349e3c612",
+      "source_file_commit": "13a22565bdd14d750b604c2f1ed0fa1938cb6cd4",
+      "source_archive_url": "https://github.com/CTeX-org/ctex-kit/archive/c4ccfaefe803ab4a12c9fedc929be1e349e3c612.zip",
+      "source_archive_sha256": "c0554d1da52124a04577f45090eb4ed8f8cd35ef8df7085b36e910cccd6a555a",
+      "bundled_source_directory": "texmf/source/latex/ctex",
+      "license_files": [
+        "licenses/LPPL-1.3c.txt",
+        "licenses/ctex-README.txt"
+      ],
+      "derivation": "Unmodified upstream .dtx extracted with upstream ctxdocstrip using LuaTeX; package .id generated from git log in the same way as upstream build-config.lua."
+    },
+    {
+      "name": "xeCJK",
+      "version": "3.9.1",
+      "release_date": "2022-08-05",
+      "license": "LPPL-1.3c-or-later",
+      "upstream_repository": "https://github.com/CTeX-org/ctex-kit",
+      "upstream_snapshot_commit": "c4ccfaefe803ab4a12c9fedc929be1e349e3c612",
+      "source_file_commit": "c4ccfaefe803ab4a12c9fedc929be1e349e3c612",
+      "source_archive_url": "https://github.com/CTeX-org/ctex-kit/archive/c4ccfaefe803ab4a12c9fedc929be1e349e3c612.zip",
+      "source_archive_sha256": "c0554d1da52124a04577f45090eb4ed8f8cd35ef8df7085b36e910cccd6a555a",
+      "bundled_source_directory": "texmf/source/xelatex/xecjk",
+      "license_files": [
+        "licenses/LPPL-1.3c.txt",
+        "licenses/xeCJK-README.txt"
+      ],
+      "derivation": "Unmodified upstream .dtx extracted with upstream ctxdocstrip using LuaTeX; package .id generated from git log in the same way as upstream build-config.lua."
+    },
+    {
+      "name": "zhnumber",
+      "version": "3.0",
+      "release_date": "2022-07-14",
+      "license": "LPPL-1.3c-or-later",
+      "upstream_repository": "https://github.com/CTeX-org/ctex-kit",
+      "upstream_snapshot_commit": "c4ccfaefe803ab4a12c9fedc929be1e349e3c612",
+      "source_file_commit": "5e8c3fe7490a3897e3459a903a1e6c84e63fb7ee",
+      "source_archive_url": "https://github.com/CTeX-org/ctex-kit/archive/c4ccfaefe803ab4a12c9fedc929be1e349e3c612.zip",
+      "source_archive_sha256": "c0554d1da52124a04577f45090eb4ed8f8cd35ef8df7085b36e910cccd6a555a",
+      "bundled_source_directory": "texmf/source/latex/zhnumber",
+      "license_files": [
+        "licenses/LPPL-1.3c.txt",
+        "licenses/zhnumber-README.txt"
+      ],
+      "derivation": "Unmodified upstream .dtx extracted with upstream ctxdocstrip using LuaTeX; package .id generated from git log in the same way as upstream build-config.lua."
+    },
+    {
+      "name": "Fandol",
+      "version": "0.3",
+      "release_date": "2015-07-18",
+      "license": "GPL-3.0 with upstream font embedding exception",
+      "source_url": "https://mirrors.ctan.org/fonts/fandol.zip",
+      "resolved_download_url": "https://mirror.apps.cam.ac.uk/pub/tex-archive/fonts/fandol.zip",
+      "source_archive_sha256": "9278f01b417ded5766d98c3937192a1a6a2c73a5e94a3493fdfc932b2a55005a",
+      "bundled_fonts_directory": "texmf/fonts/opentype/public/fandol",
+      "license_files": [
+        "licenses/Fandol-GPL-3.0-with-font-exception.txt",
+        "licenses/Fandol-README.txt"
+      ],
+      "modifications": "None. All eight original OpenType files are bundled."
+    }
+  ],
+  "baseline_dependencies": [
+    "XeTeX/XeLaTeX with a compatible LaTeX2e format",
+    "LaTeX kernel and l3kernel/l3packages",
+    "fontspec",
+    "geometry",
+    "amsmath and amsfonts",
+    "tools (array/tabularx)",
+    "graphics (graphicx)",
+    "xcolor",
+    "PGF/TikZ with calc, arrows.meta, decorations.pathreplacing",
+    "Latin Modern and standard Computer Modern/AMS fonts"
+  ],
+  "verified_environment": {
+    "engine": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+    "latex_kernel": "LaTeX2e 2024-11-01 patch level 2",
+    "smoke_test": "Passed: Chinese main/bold/hei/kai text, fraction arithmetic and TikZ brace. xelatex exit code 0.",
+    "format_generation": "xetex -ini -etex -no-pdf -jobname=xelatex -progname=xelatex -interaction=nonstopmode -halt-on-error xelatex.ini",
+    "format_is_bundled": false,
+    "smoke_test_scope": "Basic snippets only; did not cover the full document textcircled/Latin Modern math-symbol font path.",
+    "full_document_fontmap_probe": {
+      "observation": "Complete exam XDV failed at lmsy9 without pdftex.map; xdvipdfmx -f lm.map completed successfully on the same XDV.",
+      "successful_driver_exit_code": 0,
+      "successful_pdf_size_bytes": 179830,
+      "required_mapping": "lmsy9 LMMathSymbols9-Regular \"enclmmathsy ReEncodeFont\" <lm-mathsy.enc <lmsy9.pfb",
+      "fallback_condition": "System pdftex.map cannot be found.",
+      "fallback_sources": [
+        "cm.map",
+        "cmextra.map",
+        "lm.map"
+      ],
+      "fallback_output": "build/.fontmaps/pdftex.map",
+      "fallback_environment": "Prepend build/.fontmaps// to TEXFONTMAPS for the current compilation process and preserve default search paths.",
+      "full_project_validation": "See the project build and verification reports; a snippet smoke test alone is not sufficient."
+    }
+  },
+  "license_text_source": {
+    "url": "https://www.latex-project.org/lppl/lppl-1-3c.txt",
+    "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+  }
+}

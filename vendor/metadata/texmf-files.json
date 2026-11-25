@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "texmf/doc/fonts/fandol/COPYING",
+      "size": 35737,
+      "sha256": "853b586f0d520493390e571431afaf36a5fbb27dcfd239338a7ee9b0505cb004"
+    },
+    {
+      "path": "texmf/doc/fonts/fandol/README",
+      "size": 645,
+      "sha256": "32537e063f4c7d4aebf016d5c8279cbce13f34fc8970f24b2578a3c04d0f8ca6"
+    },
+    {
+      "path": "texmf/doc/latex/ctex/README.md",
+      "size": 6039,
+      "sha256": "6a95c163a8f8af1a2037fc95a142dca0f3d06d30c07c78da9c94e82d4463385c"
+    },
+    {
+      "path": "texmf/doc/latex/zhnumber/README.md",
+      "size": 2309,
+      "sha256": "6c7369e6a5cf7fd06529aa58591c15b9b68fa3e8c02e41899e64d746b8efb9be"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/README.md",
+      "size": 3395,
+      "sha256": "26b1966a93d61171edda86c71e878f50cb254f99e426426b5199d4735c41260f"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-CJKecglue.tex",
+      "size": 736,
+      "sha256": "30c7dbe9551069d34655f0945793ab5f0cd1c93d152fb11a6e5eb9ffd29a3f40"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-CJKfntef.tex",
+      "size": 3760,
+      "sha256": "df938fe1f57577a956f93955c512c9c6239348f72267a781f8771e52ca60add1"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-CM.tex",
+      "size": 685,
+      "sha256": "83140a94951849618a6afb180eca6ef2d12ab172c37d6afe0baba19a239f0a56"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-autofake.tex",
+      "size": 3059,
+      "sha256": "56f4872b5a9aeda74da6dfb334c2237ada6b01318f8ffc45e0cd0d91b28b6656"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-checksingle.tex",
+      "size": 944,
+      "sha256": "662f618d182f9d52db7e3fe23c40dce65d2f9d01a097b303d4a673399430464f"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-fallback.tex",
+      "size": 1740,
+      "sha256": "ed01cd4d936c279f8d966331bb9420337ba89cf5dbf14554168f069afc398606"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-listings.tex",
+      "size": 2393,
+      "sha256": "84a16eafc9fa8a0437e362578eacc96d95ca82fad3d25c5e6bf51b87a360682f"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-mathblock.tex",
+      "size": 1055,
+      "sha256": "904e9cc3749ee9fcd6cc8d1d113b58e927cdfff1d1819e26715e8c6a640a3b85"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-punctstyle.tex",
+      "size": 4350,
+      "sha256": "7f98c4e56fc8ca9e0d0c18904d0479e68b63882a2326720add81add41da5412a"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-subCJKblock.tex",
+      "size": 5031,
+      "sha256": "43dd7ed84746753524410ad3297ca71553762af4d291d04c03a8104cfbb33c47"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/example/xeCJK-example-verbatim.tex",
+      "size": 2233,
+      "sha256": "044a40590ec050324d3d9726c9e4ff6bc7d82bda65003e10b661478c01b7a347"
+    },
+    {
+      "path": "texmf/doc/xelatex/xecjk/xunicode-symbols.tex",
+      "size": 7401,
+      "sha256": "df0044a18a25ca110a4c656511ed137c753b13960c6ac1d1848283fa26252e2f"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/full-stop.map",
+      "size": 182,
+      "sha256": "99c5139c0f4ec4068b97be2fd57931ab2eb91fb8f07386c10b80c8fd4589db9b"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/full-stop.tec",
+      "size": 139,
+      "sha256": "43cb62a749ca8cb99fb6334bf20dffffbfb7029f3568c87e9ed9609f9fc4351f"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.map",
+      "size": 182,
+      "sha256": "de60f46fa707e81626df5d418a56c8fe34ba60aa1c331a2a72f8a78c810ff03e"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/fullwidth-stop.tec",
+      "size": 143,
+      "sha256": "0a682ac2a98a399cceb01bf7e67c6ddde96e9ffc5240ea4dc87b0af1e9216214"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/han-simp.map",
+      "size": 123145,
+      "sha256": "93a1296bb3d99a65041d7952690e889dcfc5dd528bc925e713726c1f2a8ce9e7"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/han-simp.tec",
+      "size": 80677,
+      "sha256": "c4be81ae220117d99968b0f9f6b8e42cdb542ce229544dd4e40ccf802bd636a6"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/han-trad.map",
+      "size": 115464,
+      "sha256": "5e6b8290d38676b33681fcd5824d47d530c6dd0209aa8b26ea1af1c004f326ab"
+    },
+    {
+      "path": "texmf/fonts/misc/xetex/fontmapping/xecjk/han-trad.tec",
+      "size": 72145,
+      "sha256": "1f8f498b2b41150ebceb4884dba4dfffe6852a925af4fe78a7f5ef0474756150"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolBraille-Display.otf",
+      "size": 26072,
+      "sha256": "d767cb666b37e2856dbd14b30d52d62a359868f2032fdc4d7ecebeb03ab635cf"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolBraille-Regular.otf",
+      "size": 12484,
+      "sha256": "4560b7898970fa55fbb5ce676f3688b7ebdede89c9d4f56e02de3aed23905b3c"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolFang-Regular.otf",
+      "size": 6961384,
+      "sha256": "d838ad32ce2244d8144f408c37fe71065aba6fbbc80759a4d2aa2033948d5bc9"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolHei-Bold.otf",
+      "size": 3581972,
+      "sha256": "42ca2de27b45e16a284768673b6205a5add9e17871ee0e7db9c0d03f061d96fd"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolHei-Regular.otf",
+      "size": 5808908,
+      "sha256": "4afa97aa8751e0118617df88272b58d43691b5cffb7ea024c4580496e9f34d28"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolKai-Regular.otf",
+      "size": 7790552,
+      "sha256": "ea7e7fb4f9b3ac694a68d43946e04d21deed6e8c29a7c2d3081e1a4138f2f827"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolSong-Bold.otf",
+      "size": 5777588,
+      "sha256": "ffa76a70e128947a4dd22151d5ee829b23e24ce3cb6fe8ad49891cd1c2d9e9b9"
+    },
+    {
+      "path": "texmf/fonts/opentype/public/fandol/FandolSong-Regular.otf",
+      "size": 4947904,
+      "sha256": "a3820003227d4abe31fe28b493200d94a849ccfd078b50a019264f70353020b0"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctex-zhconv-index.lua",
+      "size": 966719,
+      "sha256": "c3cc5956530d21f71b148af587c42adbd90df5df28974937455612b0b1fbab7c"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctex-zhconv-make.lua",
+      "size": 4099,
+      "sha256": "13436ed5b8fa45f6ee1708cbaed03d4e3c2ebd3bcc02a9de4a6668f2e445e78e"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctex-zhconv.lua",
+      "size": 6180,
+      "sha256": "b1f73e869c96c73781c9a0beee2d002c3fd05f96df3f88696c0048cadb4d0178"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctex.dtx",
+      "size": 457077,
+      "sha256": "6745f02ba75ca7bc87a903080afd25b5c4069592a8d21822b68f00e6bf14f94f"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctex.ins",
+      "size": 17657,
+      "sha256": "96ff80dae0e3e806cdbabab1a13bcb18463d14938bbdfa8744dd7ef8fa12cd49"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctexpunct.spa",
+      "size": 9752,
+      "sha256": "4bb757e8fedf3bb861a8fd22ba4855c06cf7fdd86a0f822fcc328e745598a724"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctxdoc.cls",
+      "size": 30637,
+      "sha256": "11ef2b166a1ecdcf61ef86a249292400fb210742a23c6bf5970950a48d8adde3"
+    },
+    {
+      "path": "texmf/source/latex/ctex/ctxdocstrip.tex",
+      "size": 2894,
+      "sha256": "424e0e0d75ed144d5dfdf0b67a97325074b7897fcd191bf3e07d3abc2af7aba6"
+    },
+    {
+      "path": "texmf/source/latex/zhnumber/zhnumber.dtx",
+      "size": 69367,
+      "sha256": "465ea397123212a0a3d61a30bf0efa1ceba61f1c03a2cc186765087aa3c2121f"
+    },
+    {
+      "path": "texmf/source/latex/zhnumber/zhnumber.ins",
+      "size": 3379,
+      "sha256": "94732cc01fbf9a6a0a3d554c6c2c3c992beb9d18145ee7d8829da2ba871ff739"
+    },
+    {
+      "path": "texmf/source/xelatex/xecjk/xeCJK.dtx",
+      "size": 518301,
+      "sha256": "a0ed97780e5cfda07747331986077fece843c6cc0bc9177997c1250326b55992"
+    },
+    {
+      "path": "texmf/source/xelatex/xecjk/xeCJK.ins",
+      "size": 7936,
+      "sha256": "1028d9de2c2f8e036dd4fd1ef83093535ed84648920a710fee0e04c4d9d68a9e"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/ctex-spa-macro.tex",
+      "size": 2870,
+      "sha256": "f07f09b9d914284533e153abf0b44301cee8478195a65b45257f91f00d06b565"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/ctex-spa-make.tex",
+      "size": 2885,
+      "sha256": "7215e19384cd6ed923a12c07e3c4cd7e92a3915ac7d5619c60b33f2a0862a262"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-adobe.tex",
+      "size": 4230,
+      "sha256": "8480c84ca52fca3dac77869e708cf827b26281a1a0967212c28ecbf8afb627b2"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-fandol.tex",
+      "size": 4159,
+      "sha256": "2d28637708399a47aed32bed4f384f6b02d106b0c900e00848a30ed6b9433fcf"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-founder.tex",
+      "size": 5516,
+      "sha256": "a683ef305f69f3c6283fd27d849681986bf16711eba0a7ebc32e2065ab52d722"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-mac.tex",
+      "size": 4608,
+      "sha256": "fef8faf8034cf90a44f3dc6f96b27f1cf21c39dc5a6de6f8f2106e3ea38fd79a"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-ubuntu.tex",
+      "size": 4113,
+      "sha256": "f4b6fd62da43310c1793098ffb05b50cdd2aed72d2444548f88c54b3e258a39d"
+    },
+    {
+      "path": "texmf/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex",
+      "size": 5818,
+      "sha256": "84c93a6974c42fbf6a63156ccb5d96301cc2d31b358feac088806409e7711959"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/config/ctex-name-gbk.cfg",
+      "size": 1730,
+      "sha256": "38dc197ebda4b6b4a7f76f8587359e42beac46bc9ecf1f8c56bc5e459a860299"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/config/ctex-name-utf8.cfg",
+      "size": 1770,
+      "sha256": "778bb83f395cf149e33db9980ff12946927c778faeaecd69fba0ebf50326f587"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/config/ctex.cfg",
+      "size": 1230,
+      "sha256": "4a8ec7a1657410266fafa163ce656c923b714c53818e99dbeafbc08ac99709b8"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/config/ctexbackend.cfg",
+      "size": 1904,
+      "sha256": "ac452bc753fc440c29e73a0319f17148524412b3e67478e2012dbc50af0e605f"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/config/ctexopts.cfg",
+      "size": 1291,
+      "sha256": "57def444aad796d361c44f4b3be4f8221042df015de9fdc97010fb7f842b39ef"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctex-c5size.clo",
+      "size": 2616,
+      "sha256": "bbcb9f53fee79765958176b580622721feb7b8691454f5ba0b68baae52d300e8"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctex-cs4size.clo",
+      "size": 2637,
+      "sha256": "fd540d05bd7689c022b2410b4563fb5891c1eeffd5a017b3c9a7a9f9aa538a51"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctex.sty",
+      "size": 32650,
+      "sha256": "dd868cf1e82815ff9544e222c5eebe528dfc7799b69f7fe1762646ebe23dcd6b"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexart.cls",
+      "size": 55219,
+      "sha256": "822d4a8c15e964c068c28be77c026ab891c4ab5b224503546c2994ac077efd93"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexbeamer.cls",
+      "size": 39382,
+      "sha256": "6f731df93444ca969bd155f58eac78cccf6d92e2e381b9f72fcedb9666b5069b"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexbook.cls",
+      "size": 58747,
+      "sha256": "1d75b5d67fa79f771326658235498a64c94c0de2bd4538c16f7ba49169ecb65b"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexcap.sty",
+      "size": 1838,
+      "sha256": "30ef22fbaa8ee3864e752ab089433e06dbdfed2c16256b1113063afaded21491"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexheading.sty",
+      "size": 8606,
+      "sha256": "c5f40e1dfa9e63e30d04620035cc4a6c0f025e4bf729196b54725d1e2618fa23"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexhook.sty",
+      "size": 6505,
+      "sha256": "40e83f5ed34900870bb14fbe09dc24440bb98bc01813e28c59575c69134ffae6"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexpatch.sty",
+      "size": 8448,
+      "sha256": "9f7980ed971ea9ee22583726d4760ebcba5a6e4cc2edc1576f2b71b613d64c29"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexrep.cls",
+      "size": 58604,
+      "sha256": "aa28de78a0bee0ac97c9ab4f5da7ea2c83276d207a2ff2e6d5224297343515da"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexsize.sty",
+      "size": 10396,
+      "sha256": "a6032914268ff42c0d721bbb4070ad5598f7f8aa36046f8315a14b3932770fad"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/ctexspa.def",
+      "size": 10881,
+      "sha256": "87b85009ae75ed01e10f018c29a38c488df9eb988bcf09401e4b614fb7326294"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/dictionary/translator-theorem-dictionary-ChineseGBK.dict",
+      "size": 4320,
+      "sha256": "4bdeca75d75051f5531e08e1e357ce07c63fbb2f22d45fd2d048c1ab99ac2ced"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/dictionary/translator-theorem-dictionary-ChineseUTF8.dict",
+      "size": 4520,
+      "sha256": "5dabaa80bfaa77148829cf23f5e4d109ea7bac7960dbb2d456fba3596c1aa1d6"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/engine/ctex-engine-aptex.def",
+      "size": 10160,
+      "sha256": "14fd2307f8f81d8cd4e601186dd0a5fcedf54642d86c7a0745be8ab080bfdd72"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/engine/ctex-engine-luatex.def",
+      "size": 46544,
+      "sha256": "bf13ba55952bcf8785777dab84c8a9f00b65029aee8049b533f50bcfeb4049ff"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/engine/ctex-engine-pdftex.def",
+      "size": 20297,
+      "sha256": "ef2c0374bf6748a86790c903d1bf809269146a2a1720519cd5fe7d61c2cdc106"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/engine/ctex-engine-uptex.def",
+      "size": 10155,
+      "sha256": "2530bcc8a42d5063db0eafd48df2300456f0066e643b0d721e4eca99cc311fea"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/engine/ctex-engine-xetex.def",
+      "size": 4760,
+      "sha256": "23ca571bb8631b994e041e09b9a8dadf3ba5b75240e1774f6f61b97589287d0e"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c19rm.fd",
+      "size": 1839,
+      "sha256": "15dbc27abc9cc59f7088cb38f3bb2219527eabdf4d41e41d5ad206379fbe2025"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c19sf.fd",
+      "size": 1833,
+      "sha256": "f607aefc069d2a85b7af531d12de2952e67143be1c3f9623fa2918a87c4e10c0"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c19tt.fd",
+      "size": 1824,
+      "sha256": "ce1ed4e7e671e526cb872d1ea5a20efc80e83aeb845bc22a6e6a9021539877b9"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c70rm.fd",
+      "size": 1820,
+      "sha256": "b131d54e23a2d6a2c0fb207f1b336d04da293d8dfbd56846d615fcc3b41eb64b"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c70sf.fd",
+      "size": 1814,
+      "sha256": "f08707e8fb2a4b86c5e17d9de561db307e6f90760ccdfb0e9238e95e0cb9494d"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/c70tt.fd",
+      "size": 1805,
+      "sha256": "1838b28607b682895568973b39944dc1e720e5dab716c744621c3ba8aaff5790"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jt2zhrm.fd",
+      "size": 1365,
+      "sha256": "60da18a1863ea71ccabece1877639c92a3fd433b04772b68d3ce0f30c012eed7"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jt2zhsf.fd",
+      "size": 1305,
+      "sha256": "2fbda08a2c6e8c3e5997149d37fa8eecfd7bc5c7eeacafbbb281054cf1256157"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jt2zhtt.fd",
+      "size": 1196,
+      "sha256": "4e8e13172ec5472ea88aed1f8aae2b1d0224b889d577bc3e05f104b9052ed8f3"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jy2zhrm.fd",
+      "size": 1365,
+      "sha256": "254208299993bcefe804bd2b28f79178d98b4c12daba33850fd061e7c2388405"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jy2zhsf.fd",
+      "size": 1305,
+      "sha256": "9423fcde946caf95e6fcb18d967554027204b80af0ae1e80714b2c5dd49b88e8"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fd/jy2zhtt.fd",
+      "size": 1196,
+      "sha256": "7b7c8cc5e84f3782d4fa43a8189ff6417c491607a3ae3a55a4cc7403f7f5f5ed"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-adobe.def",
+      "size": 4143,
+      "sha256": "f150471619d50e26ab4cead5a40608ea65b9c7d4ce5a593ced7671b33da63108"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-fandol.def",
+      "size": 4554,
+      "sha256": "b40e53afbc885efc048c7a54cb3cea41f236eebe3c5164b12b60cacfa1193897"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-founder.def",
+      "size": 4431,
+      "sha256": "329b6479fb33e4fc2f99de5cdbf0ea37331ea406bab5dff227a9fb4b89bd5faa"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-mac.def",
+      "size": 1427,
+      "sha256": "8b76f3297eab28b12e1f035642a8f72414b12a4274d73a2f969df78949f087f1"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-macnew.def",
+      "size": 5350,
+      "sha256": "1e158c46ab8e2e6b25de021b2c0185b8a5320b6341ef22c813dfd5c0db274b7f"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-macold.def",
+      "size": 2068,
+      "sha256": "722acd8b61e0a783288f96be56dcfb50794b88b8596978b8b7beed1cf36bda8c"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-ubuntu.def",
+      "size": 3984,
+      "sha256": "c37bb5d74fb723fc04fc840d4e7d74e2018b21d998abb861eaa795b346f20678"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/fontset/ctex-fontset-windows.def",
+      "size": 4952,
+      "sha256": "2b96fb8a96e08299b552cf32b6e8a173f66143dfc7142d294ea280329d924b7d"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/heading/ctex-heading-article.def",
+      "size": 24735,
+      "sha256": "1c4d48dee90c9b50179287e6b5c50d150fbd6a4bbb71a9f693dd2841bc71aec6"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/heading/ctex-heading-beamer.def",
+      "size": 9077,
+      "sha256": "64f95fe9222915613d639231866c25acbc4229cfe838c6605150d0a4d66e3f75"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/heading/ctex-heading-book.def",
+      "size": 28253,
+      "sha256": "6763abf46497a8b827d548c0b8d5fd58dc6a036782d07592738924c86088af20"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/heading/ctex-heading-report.def",
+      "size": 28118,
+      "sha256": "04942ad3f262c1fe911a5545213895a1f21f37b860d82026bd9d8289e511fea9"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def",
+      "size": 4622,
+      "sha256": "cb6461f507b40cbc30f910403081fec6932ce412abcf6e4865e0c88e35596fc4"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-chinese-beamer.def",
+      "size": 2785,
+      "sha256": "bef8408806f6f508c78fcbfaebd017459dad13985e11d8f8805a835ba7d771f6"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def",
+      "size": 5190,
+      "sha256": "88f02b637c6861f82036dafaec946870373d9955a7b4d58c45ae4ec299c5f98a"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-chinese-report.def",
+      "size": 5200,
+      "sha256": "e714dd8d4e0996ea205e6df90ac0da4c9751e55d10ca1a0afc35f6b3fc7af8e2"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-chinese.def",
+      "size": 2309,
+      "sha256": "06dff6fd73d34cfa6d65d6c20f2ef043844f4076b9ea7cff91554f582587f4b9"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-plain-article.def",
+      "size": 4089,
+      "sha256": "096c5920e40dbbbc3986d7212bdffb76c490dc9532f0b6c380346c0fb747172f"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-plain-beamer.def",
+      "size": 2414,
+      "sha256": "c8f37202a337aba58589513d4d95609af4ea662593be00238adb043c17b4b5ed"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-plain-book.def",
+      "size": 4802,
+      "sha256": "97e21f0ed3fc14703dadf956dcde4df130bacf427c34542bbff82f1c7d2b9d75"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-plain-report.def",
+      "size": 4812,
+      "sha256": "d17e99bf07e99ea134038fe3967fbdef9b9c23fc24da0eec2c105a6cca7409d2"
+    },
+    {
+      "path": "texmf/tex/latex/ctex/scheme/ctex-scheme-plain.def",
+      "size": 1277,
+      "sha256": "8d49bcc2f5f63ce60f5c292cb840bb1a8f6c49e348db8892d67cf36529e5eabf"
+    },
+    {
+      "path": "texmf/tex/latex/zhnumber/config/zhnumber-big5.cfg",
+      "size": 4940,
+      "sha256": "5a39a2d3295836f7911b3b4bef1404ebf67762c415a8c6f51df2e627a978fc90"
+    },
+    {
+      "path": "texmf/tex/latex/zhnumber/config/zhnumber-gbk.cfg",
+      "size": 5607,
+      "sha256": "9b25259f0a0ccc18796d0266e0f0f7947d72bc4befa556e3758aeeb2e1d37aee"
+    },
+    {
+      "path": "texmf/tex/latex/zhnumber/config/zhnumber-utf8.cfg",
+      "size": 5700,
+      "sha256": "55de8dddc989474abc973f76fb08a19321650046584f6b54e7e746a0cb30ba54"
+    },
+    {
+      "path": "texmf/tex/latex/zhnumber/zhnumber.sty",
+      "size": 38160,
+      "sha256": "eb315870e85d0bbce058f52ac9dfd16c177a98ffba1abedd0eca29a7fdd952ae"
+    },
+    {
+      "path": "texmf/tex/luatex/ctex/ctex-zhconv-index.lua",
+      "size": 966719,
+      "sha256": "c3cc5956530d21f71b148af587c42adbd90df5df28974937455612b0b1fbab7c"
+    },
+    {
+      "path": "texmf/tex/luatex/ctex/ctex-zhconv.lua",
+      "size": 6180,
+      "sha256": "b1f73e869c96c73781c9a0beee2d002c3fd05f96df3f88696c0048cadb4d0178"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/config/xeCJK.cfg",
+      "size": 408,
+      "sha256": "d4fd750245a9702da242938637ece678b37862da73d1cf7d15df931828482a5c"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/xeCJK-listings.sty",
+      "size": 13930,
+      "sha256": "1f5a7af47fb1137dabe3a2f700e0664fce3f49eb604c5132f45f52e8138ecac9"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/xeCJK.sty",
+      "size": 183137,
+      "sha256": "c61660692befbcec0b52dfb3e2e69b360cbd3e187e07565d722a296df8e893ef"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/xeCJKfntef.sty",
+      "size": 39577,
+      "sha256": "3388a7a7d4c88c533d22cc6dbcb0e7b18b6bd1411376bfa5be6c3e5d6df9a35d"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/xunicode-addon.sty",
+      "size": 26486,
+      "sha256": "35a1503066b259f4c603aac031777cc86e1b14ae9aa793199ed2502ae079a026"
+    },
+    {
+      "path": "texmf/tex/xelatex/xecjk/xunicode-extra.def",
+      "size": 61684,
+      "sha256": "2563fa4faadcdb8c39de05fb9f98431685f617dd08a5cad81da2b60d1c59646c"
+    },
+    {
+      "path": "licenses/Fandol-GPL-3.0-with-font-exception.txt",
+      "size": 35737,
+      "sha256": "853b586f0d520493390e571431afaf36a5fbb27dcfd239338a7ee9b0505cb004"
+    },
+    {
+      "path": "licenses/Fandol-README.txt",
+      "size": 645,
+      "sha256": "32537e063f4c7d4aebf016d5c8279cbce13f34fc8970f24b2578a3c04d0f8ca6"
+    },
+    {
+      "path": "licenses/LPPL-1.3c.txt",
+      "size": 19036,
+      "sha256": "c1ae6e179a6d28bbd5c483fbacc744acc75e922d598281dc3390aab26126e163"
+    },
+    {
+      "path": "licenses/ctex-README.txt",
+      "size": 6039,
+      "sha256": "6a95c163a8f8af1a2037fc95a142dca0f3d06d30c07c78da9c94e82d4463385c"
+    },
+    {
+      "path": "licenses/xeCJK-README.txt",
+      "size": 3395,
+      "sha256": "26b1966a93d61171edda86c71e878f50cb254f99e426426b5199d4735c41260f"
+    },
+    {
+      "path": "licenses/zhnumber-README.txt",
+      "size": 2309,
+      "sha256": "6c7369e6a5cf7fd06529aa58591c15b9b68fa3e8c02e41899e64d746b8efb9be"
+    }
+  ]
+}
