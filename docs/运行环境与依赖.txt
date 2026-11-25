@@ -1,0 +1,74 @@
+运行环境与依赖
+记录日期：2026-11-19
+
+一、运行入口
+构建：python scripts/build.py
+先查依赖：python scripts/build.py --check
+完整性：python scripts/verify.py --files-only --strict（刚解压时）
+PDF检查：python scripts/verify.py
+
+只运行构建及SHA-256检查：Python 3.9或更新版本即可。
+使用 requirements.txt 中固定的全部PDF验证组件：Python 3.11或更新版本。
+本次验证所用Python为3.12.14；各Python包版本见 verification/python_environment.json。
+
+二、需要已经安装的基础工具链
+1. XeLaTeX/XeTeX、xdvipdfmx、kpsewhich。
+2. LaTeX基础内核、fontspec、geometry、amsmath/amsfonts、array/tabularx、
+   graphicx、xcolor、PGF/TikZ及calc/arrows.meta/decorations.pathreplacing库。
+3. 标准Computer Modern及Latin Modern字体、对应TFM/PFB/OTF和编码/映射文件。
+
+完整TeX Live或MacTeX通常已经具备这些基础项；MiKTeX也须安装对应包。
+如环境没有TeX引擎，先按该环境支持的安装方式补齐上述基础工具链。
+本工程没有捆绑整个TeX发行版、操作系统镜像或跨平台二进制可执行文件。
+不要把“有中文字体”误认为“已有完整XeLaTeX工具链”。
+
+三、已随包提供的中文支持
+vendor/texmf 是用户级TeX资源树，包含：
+- ctex 2.5.10（2022-07-14）
+- xeCJK 3.9.1（2022-08-05）
+- zhnumber 3.0（2022-07-14）
+- Fandol 0.3（2015-07-18），八个原始OTF字体
+
+三个宏包来自CTeX-org官方仓库固定提交：
+c4ccfaefe803ab4a12c9fedc929be1e349e3c612
+运行文件按上游方式从原始dtx生成；对应源码和安装支持文件也在texmf/source/内。
+来源URL、日期、许可、下载摘要在 vendor/metadata/dependency-manifest.json。
+原始许可和字体嵌入例外在 vendor/licenses/，不得随意删除。
+此处固定兼容版本，并不声称它们是最新版本；本次没有采用要求更新内核的2026宏包。
+
+四、构建脚本如何适应新环境
+1. 依据脚本本身计算工程根目录，不使用旧聊天工作区路径。
+2. 仅对子进程设置TEXMFHOME=vendor/texmf，不修改系统配置或真正的用户HOME。
+3. 某些精简环境保留TeX文件却缺失ls-R文件名数据库。若默认找不到article.cls，
+   脚本仅在本次进程中去掉TEXMF的数据库限定标志，改用正常的文件系统查找。
+4. 如果缺失xelatex.fmt，使用当前引擎和xelatex.ini，在build/.formats/生成。
+   TEXMFVAR/TEXMFCONFIG/TEXMFCACHE均限于当前构建目录。
+   不分发别的TeX版本生成的二进制fmt缓存。
+5. 如果缺失pdftex.map，读取本机cm.map、cmextra.map、lm.map，
+   在build/.fontmaps/合成项目级映射，只对当前编译设置TEXFONTMAPS。
+   该步骤保留Latin Modern数学符号的重编码，避免“lmsy9缺字/驱动断言失败”。
+6. 每版执行两遍XeLaTeX，禁用shell escape，输出到build/，保留逐遍控制台日志。
+
+上述备用路径只解决已明确观察到的配置缺失；若基础宏包或引擎文件真的不存在，
+脚本会报出缺失项，不会伪装为编译成功，也不会自动修改系统或联网安装软件。
+
+五、本次实际编译环境
+引擎：XeTeX 3.141592653-2.6-0.999996，TeX Live 2025/dev/Debian。
+LaTeX内核：LaTeX2e 2024-11-01 patch level 2。
+运行在Linux；Windows和macOS启动脚本已提供，但本次未在这些系统实机测试。
+完整成品的本次构建与视觉比较结果见 verification/本次验证说明.txt。
+
+六、常见问题
+“找不到xelatex/kpsewhich”：安装基础TeX工具链或修正当前进程PATH。
+“找不到ctex/xeCJK/Fandol”：确认vendor/texmf完整，使用scripts/build.py构建。
+“xelatex.fmt未找到”：脚本会本地生成；若xelatex.ini也缺失，基础发行版不完整。
+“lmsy9、Glyph (null)、pdf_new_string断言”：检查是否缺失pdftex.map，
+  并确认lm.map、lm-mathsy.enc、lmsy9.pfb能被找到；不要先改题目或换字体。
+“原PNG的ICC profile未嵌入”：原始题图的ICC版本与默认PDF版本不匹配时可能提示。
+  本次保留原PNG字节，并通过实际输出比较确认影响范围，不把提示当作题图已清晰可读。
+“严格渲染比较失败”：逐页查看差异；不同TeX版本可能改变元数据、字形或微小位置。
+  PDF二进制摘要不同不等于内容不同；严格渲染不同也不能未经检查就忽略。
+
+七、手工编译
+在完整TeX环境且中文依赖已可见的情况下，可在src/中直接对两份.tex各编译两遍。
+但工程默认推荐scripts/build.py，因为它会处理本项目已发现的环境缺失并保留日志。
