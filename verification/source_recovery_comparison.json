@@ -1,0 +1,26 @@
+{
+  "archive_crc_passed": true,
+  "source_files_unchanged": true,
+  "files": [
+    {
+      "file": "src/五年级数学小测_试题版.tex",
+      "equal_to_recovered_archive_member": true
+    },
+    {
+      "file": "src/五年级数学小测_答案版.tex",
+      "equal_to_recovered_archive_member": true
+    },
+    {
+      "file": "src/图形.tex",
+      "equal_to_recovered_archive_member": true
+    },
+    {
+      "file": "src/原题模糊图.png",
+      "equal_to_recovered_archive_member": true
+    },
+    {
+      "file": "src/编译说明.txt",
+      "equal_to_recovered_archive_member": true
+    }
+  ]
+}

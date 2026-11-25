@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "name": "source structure",
+      "files": 2
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "sha256": "1e2337cd69b32f2d127674dab753257b9538d76560b0e26ea3e8963695611104",
+      "pages": [
+        {
+          "page": 1,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1727
+        },
+        {
+          "page": 2,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1112
+        }
+      ]
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "sha256": "2b10e4124bac6b3c6597256ebfbb4fbab4016a50accaacd3b632cd5803d8566a",
+      "pages": [
+        {
+          "page": 1,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1849
+        },
+        {
+          "page": 2,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 2069
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "render_checks": [
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "page": 1,
+      "dpi": 108,
+      "colored_text_spans": 0,
+      "same_dimensions": true,
+      "same_extracted_text": true,
+      "identical_render": true,
+      "mean_abs_channel_difference_0_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "page": 2,
+      "dpi": 108,
+      "colored_text_spans": 0,
+      "same_dimensions": true,
+      "same_extracted_text": true,
+      "identical_render": true,
+      "mean_abs_channel_difference_0_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "page": 1,
+      "dpi": 108,
+      "colored_text_spans": 53,
+      "same_dimensions": true,
+      "same_extracted_text": true,
+      "identical_render": true,
+      "mean_abs_channel_difference_0_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "page": 2,
+      "dpi": 108,
+      "colored_text_spans": 310,
+      "same_dimensions": true,
+      "same_extracted_text": true,
+      "identical_render": true,
+      "mean_abs_channel_difference_0_255": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "render_differences_require_visual_review": false,
+  "passed": true
+}

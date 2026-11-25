@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_executable_note": "由当前运行环境提供，不依赖此绝对路径",
+  "packages": {
+    "pypdf": "6.21.4",
+    "PyMuPDF": "1.26.6",
+    "Pillow": "13.0.0"
+  },
+  "minimum_python_for_pinned_validation_stack": "3.11",
+  "minimum_python_for_build_and_hash_scripts": "3.9"
+}

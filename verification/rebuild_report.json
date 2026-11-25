@@ -1,0 +1,55 @@
+{
+  "started_at_utc": "2026-11-19T13:14:33.350636+00:00",
+  "engine_version": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+  "notes": [
+    "Using bundled vendor/texmf as TEXMFHOME for this process only.",
+    "TeX filename-database fallback: filesystem search enabled for this process."
+  ],
+  "targets": [
+    {
+      "source": "src/五年级数学小测_试题版.tex",
+      "passes": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "console": "五年级数学小测_试题版.pass1.txt"
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "console": "五年级数学小测_试题版.pass2.txt"
+        }
+      ],
+      "warnings": [],
+      "missing_glyphs": false,
+      "pdf_exists": true,
+      "pdf_bytes": 179835
+    },
+    {
+      "source": "src/五年级数学小测_答案版.tex",
+      "passes": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "console": "五年级数学小测_答案版.pass1.txt"
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "console": "五年级数学小测_答案版.pass2.txt"
+        }
+      ],
+      "warnings": [],
+      "missing_glyphs": false,
+      "pdf_exists": true,
+      "pdf_bytes": 191310
+    }
+  ],
+  "all_succeeded": true,
+  "font_map_fallback": [
+    "cm.map",
+    "cmextra.map",
+    "lm.map"
+  ],
+  "format_generated": true
+}

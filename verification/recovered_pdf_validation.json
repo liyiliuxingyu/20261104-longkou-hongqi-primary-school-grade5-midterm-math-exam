@@ -1,0 +1,74 @@
+{
+  "checks": [
+    {
+      "name": "source structure",
+      "files": 2
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "sha256": "1236955d2752926da02ec96bbf56bf2aed81f85d65a017d3b5c7dd1b6c3e2af7",
+      "pages": [
+        {
+          "page": 1,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1727
+        },
+        {
+          "page": 2,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1112
+        }
+      ]
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "sha256": "00eb491476cd09605ab46fd06438eda7cf59eb68f3ee299b8984dac32b12dd9c",
+      "pages": [
+        {
+          "page": 1,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 1849
+        },
+        {
+          "page": 2,
+          "width_mm": 419.9996,
+          "height_mm": 297.0001,
+          "text_chars": 2069
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "render_checks": [
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "page": 1,
+      "dpi": 108,
+      "colored_text_spans": 0
+    },
+    {
+      "file": "五年级数学小测_试题版.pdf",
+      "page": 2,
+      "dpi": 108,
+      "colored_text_spans": 0
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "page": 1,
+      "dpi": 108,
+      "colored_text_spans": 53
+    },
+    {
+      "file": "五年级数学小测_答案版.pdf",
+      "page": 2,
+      "dpi": 108,
+      "colored_text_spans": 310
+    }
+  ],
+  "passed": true
+}

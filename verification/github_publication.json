@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-25",
+  "source_archive": "五年级数学小测_A3续作工程包_20261119.zip",
+  "source_archive_bytes": 29994341,
+  "source_archive_sha256": "c146f6b01c7633b4b4531533d7d8d54c9a0b1d9e8c6fa9f48980d09a9dba96d7",
+  "source_archive_file_count": 170,
+  "all_original_file_paths_preserved": true,
+  "missing_original_paths": [],
+  "intentional_existing_file_changes": [
+    "project_state.json",
+    "scripts/verify.py",
+    "vendor/DEPENDENCIES.md",
+    "SHA256SUMS"
+  ],
+  "added_files": [
+    "README.md",
+    "verification/source_snapshot_20261119.sha256",
+    "verification/github_publication.json"
+  ],
+  "primary_content_byte_unchanged": true,
+  "compile_repeated_on_publication_date": false,
+  "historical_compile_date": "2026-11-19",
+  "verification_note": "源包CRC和全部169项SHA256已在本次恢复后核对通过。源码、PDF、原始照片、TeX资源树逐字节未变。根SHA256SUMS针对发布快照重新生成，source_snapshot_20261119.sha256保留原包清单。远端提交和文件树由上传后另行核对。"
+}
