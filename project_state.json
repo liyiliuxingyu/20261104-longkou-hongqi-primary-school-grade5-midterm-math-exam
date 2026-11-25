@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "project_title": "五年级数学小测 A3 试题版与答案版",
+  "snapshot_date": "2026-11-25",
+  "timezone": "Asia/Shanghai",
+  "current_request": "新建公开GitHub仓库，按目录展开上传全部现行工程文件，中文题名为20261104龙口市红旗小学五年级数学期中考试试卷。",
+  "source_status": "从此前保存的最新版恢复；src/ 为当前可直接编辑和编译的权威源码。",
+  "layout": {
+    "paper_mm": [
+      420,
+      297
+    ],
+    "orientation": "landscape",
+    "columns_per_page": 2,
+    "pages_per_version": 2,
+    "preserve_original_layout": true
+  },
+  "reference_pdfs": [
+    "pdf/五年级数学小测_试题版.pdf",
+    "pdf/五年级数学小测_答案版.pdf"
+  ],
+  "source_files": [
+    "src/五年级数学小测_试题版.tex",
+    "src/五年级数学小测_答案版.tex",
+    "src/图形.tex",
+    "src/原题模糊图.png"
+  ],
+  "original_photos": [
+    "originals/image-1793758793622.jpg",
+    "originals/image-1793758800522.jpg"
+  ],
+  "entrypoints": {
+    "integrity": "python scripts/verify.py --files-only --strict",
+    "prerequisites": "python scripts/build.py --check",
+    "build": "python scripts/build.py",
+    "compare": "python scripts/verify.py --skip-checksums --pdf-dir build --compare-dir pdf --require-identical-render --render-dir build/preview --report build/verification.json",
+    "repackage": "python scripts/pack.py ../A3_math_exam_new_snapshot.zip"
+  },
+  "known_unresolved": [
+    {
+      "id": "fill_10_exposed_area",
+      "status": "unresolved",
+      "known_answer": "体积 6 立方分米",
+      "unknown": "外露面积",
+      "reason": "原图过暗，无法可靠确定6个正方体的排列与接触面",
+      "next_action": "取得清晰原图或可靠摆放说明，再推导面积；同步修改两版。",
+      "must_not": "猜测图形、照抄未经核定的红笔12，或去掉待核状态。"
+    },
+    {
+      "id": "bonus_3_submersion",
+      "status": "conditional_answer_retained",
+      "answer": "13 立方分米",
+      "condition": "铁块完全浸没",
+      "reason": "原题未明确铁块完全浸没；数据只能确定浸水部分体积。"
+    },
+    {
+      "id": "word_5_name",
+      "status": "low_resolution_name_transcription",
+      "current_text": "露露",
+      "note": "历史独立识读采用此名；专名清晰度有限，不影响计算。"
+    }
+  ],
+  "confirmed_key_answers": {
+    "choice_1": [
+      "A",
+      "D"
+    ],
+    "choice_1_explanation": "两个空分别填A、D",
+    "choice_9": [
+      "C",
+      "D"
+    ],
+    "last_long_calculation": "13/15",
+    "word_4_2_information": [
+      "①",
+      "③",
+      "④"
+    ],
+    "word_4_2_answer": "84 人",
+    "bonus_2": "110 平方厘米",
+    "melon_unknown": "a"
+  },
+  "history_boundary": {
+    "old_scratch_pruned": true,
+    "original_main_generator_recovered": false,
+    "current_tex_directly_buildable_without_generator": true,
+    "full_chat_transcript_included": false,
+    "details": "docs/恢复范围.txt"
+  },
+  "lean_project": {
+    "applicable": false,
+    "note": "此项目为 LaTeX 排版工程，无 Lean 源码或形式化证明。"
+  },
+  "verification": {
+    "recovered_pdf_check": "verification/recovered_pdf_validation.json",
+    "fresh_extraction_build": "passed",
+    "current_results_file": "verification/本次验证说明.txt",
+    "rebuild_report": "verification/rebuild_report.json",
+    "render_comparison": "verification/rebuild_pdf_comparison.json",
+    "all_four_page_renders_identical_at_dpi": 108,
+    "both_versions_two_passes_successful": true,
+    "clean_test_details": "从独立ZIP解压到包含中文和空格的新目录；从工程外调用；不借助旧aux、fmt或font-map缓存。两版各两遍均退出0。",
+    "critical_build_inputs_unchanged_after_test": false,
+    "critical_inputs_manifest": "verification/tested_build_inputs.json",
+    "same_extracted_text_all_four_pages": true,
+    "known_failed_attempt_resolved": "初次完整卷暴露pdftex.map缺失导致lmsy9编码错误；构建脚本已加入本地CM/LM映射生成，随后全新解压重测通过。",
+    "tested_operating_system": "Linux",
+    "windows_macos_tested": false,
+    "historical_compile_date": "2026-11-19",
+    "full_compile_repeated_for_publication": false,
+    "publication_changes_note": "2026-11-25仅调整verify.py以排除.git元数据，修正vendor/DEPENDENCIES.md中清单路径，并更新状态、校验和及新增首页/发布说明。src、pdf、字体、build.py均保持恢复字节。tested_build_inputs.json记录的是2026-11-19快照。"
+  },
+  "next_priority": "先验证工程恢复及编译；若无新修改要求，只报告状态。核定填空10须等待清晰证据。",
+  "publication": {
+    "repository_full_name": "liyiliuxingyu/20261104-longkou-hongqi-primary-school-grade5-midterm-math-exam",
+    "visibility": "public",
+    "requested_chinese_title": "20261104龙口市红旗小学五年级数学期中考试试卷",
+    "repository_url": "https://github.com/liyiliuxingyu/20261104-longkou-hongqi-primary-school-grade5-midterm-math-exam",
+    "file_layout": "expanded_project_files_at_repository_root",
+    "source_snapshot_date": "2026-11-19",
+    "publication_date": "2026-11-25",
+    "notes": "GitHub仓库路径采用ASCII英文名；完整中文题名保留在仓库简介和README。"
+  }
+}

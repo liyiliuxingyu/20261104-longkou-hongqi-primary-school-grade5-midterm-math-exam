@@ -1,0 +1,5 @@
+# Optional PDF validation/rendering stack, pinned to the versions used for this snapshot.
+# Building PDFs needs Python + XeLaTeX, not these Python packages.
+pypdf==6.21.4
+PyMuPDF==1.26.6
+Pillow==13.0.0

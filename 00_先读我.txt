@@ -1,0 +1,79 @@
+五年级数学小测 · A3 可接续工程
+快照日期：2026-11-19（北京时间）
+
+一、这是什么
+本工程用于接续依据两张原卷照片制作的“试题版”和“答案版”。
+最终排版要求：A3 横向，420 × 297 毫米，双栏；试题版和答案版各 2 页。
+保留原卷题序、跨栏断点、图形位置。答案版在同一版式上用红色补答案和必要步骤。
+
+二、新对话怎样继续
+1. 保存整个 ZIP，下一次在新对话上传该 ZIP。
+2. 复制“新对话接续提示.txt”的内容发送。
+3. 新对话先读取 project_state.json、AGENTS.md 和 docs/，再检查 src/。
+4. 先校验，再在 build/ 中编译；不要从头重排，也不要用旧 A4 版覆盖当前 A3 版。
+
+三、目录和权威版本
+pdf/          本次恢复的已交付 A3 PDF，直接打印以此目录为准。
+src/          可编辑的两份主 TeX、共享 TikZ 图形、原题模糊图和原编译说明。
+originals/    两张原始上传照片，未改动照片内容。
+archive/      本次恢复的原 LaTeX 源 ZIP，保留为来源快照。
+vendor/       随包提供的中文 TeX 支持、字体及许可证；详情见依赖说明。
+scripts/      本次新增的构建、校验、重新打包入口。
+reference/    本次生成的参考页面预览，可和续作后的 PDF 对照。
+verification/ 本次实际运行结果；历史审校结论与本次验证分开记录。
+docs/         版式约束、数学核对、待办、恢复范围、运行环境。
+project_state.json 机器可读的工程状态。
+SHA256SUMS    本次快照各文件的 SHA-256 校验清单。
+
+四、常用命令（在解压后的 A3_math_exam 目录运行）
+仅检查文件完整性，不需要第三方 Python 包：
+  python scripts/verify.py --files-only --strict
+
+--strict 用于刚解压、尚未产生 build/ 等新文件的快照；它还会检查清单是否缺项。
+完成编译后再次核对快照文件时去掉 --strict，以允许新增的构建输出。
+
+完整检查参考 PDF 的页数和 A3 尺寸：
+  python -m pip install -r requirements.txt
+  python scripts/verify.py
+
+检查编译环境：
+  python scripts/build.py --check
+
+编译两版（每版自动运行 XeLaTeX 两遍）：
+  python scripts/build.py
+
+对比新编译结果与参考原件：
+  python scripts/verify.py --skip-checksums --pdf-dir build --compare-dir pdf --require-identical-render --render-dir build/preview --report build/verification.json
+
+该命令把任何页面渲染差异列为失败，提示进一步核查。
+TeX 版本差异也可能产生轻微排版变化；应查看差异并记录理由，不能直接视为同一成品。
+
+Windows 可把 python 换成 py；Linux/macOS 可换成 python3。
+构建脚本按自身所在目录定位工程，从其他工作目录调用也可。
+build.py 的相对输出目录和 verify.py 的相对 PDF 目录均以工程根目录为基准。
+原参考成品在 pdf/；新结果默认在 build/，不会覆盖参考成品。
+
+五、继续修改时
+1. 在 src/ 修改需要的题干、答案或图形；两版共同题干和布局要同步修改。
+2. 每次修改后重新编译两遍并检查四个页面。
+3. 确认新结果后，才有意识地把它们更新到 pdf/ 作为新的基准。
+4. 更新 project_state.json、待办和本次验证记录。
+5. 再运行：
+   python scripts/pack.py ../五年级数学小测_A3续作工程包_新快照.zip
+   此命令重建 SHA256SUMS，再打包。不要用它掩盖非预期的校验失败。
+
+六、仍未解决或有条件的地方
+填空第 10 题：六个棱长 1 分米正方体，体积 6 立方分米确定。
+原题图过暗，外露面积仍为“待核”；不能直接沿用照片手写的 12，也不能猜造排列。
+要核定此空，需要更清晰的原题图或可靠的摆放说明。
+
+附加第 3 题：13 立方分米按铁块完全浸没计算。
+原题未明确铁块完全浸没；若未完全浸没，只能确定浸水部分体积。
+答案版已有条件说明，续作时必须保留。
+
+七、完整性的边界
+本包是“目前恢复到的最新工程 + 本次新增的可接续构建与交接文件”。
+它不是已经被清理的旧临时工作目录的逐字节备份；具体缺失历史见 docs/恢复范围.txt。
+两份主源码、全部当前构建资源、原始照片和参考成品已经纳入。
+新环境仍须具备 Python、XeLaTeX 等工具；本包不包含整套操作系统或跨平台 TeX 引擎。
+是否成功运行以 verification/ 中本次实际结果和新环境的检查为准。
